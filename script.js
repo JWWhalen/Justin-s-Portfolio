@@ -7,7 +7,11 @@ function toggleNavigation() {
       nav.classList.add('w3-show');
     }
   }
-  
+  window.embeddedChatbotConfig = {
+    chatbotId: "ASfXXySDlPpB5yU4ej6ql",
+    domain: "www.chatbase.co"
+    }
+    
  
   feather.replace();
 
