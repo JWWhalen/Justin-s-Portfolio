@@ -8,7 +8,7 @@ function toggleNavigation() {
     }
   }
   
-  // Script to load feather icons
+ 
   feather.replace();
 
   

@@ -1,4 +1,4 @@
-/*General*/
+
 body * {
     font-family: "Montserrat", sans-serif;
   }
@@ -22,7 +22,7 @@ body * {
     border: none !important;
   }
   
-  /*Containers*/
+  
   
   .image-section {
     height: 100vh;
@@ -85,7 +85,7 @@ body * {
     padding: 8px 0px;
   }
   
-  /*Utilities*/
+  
   
   .w3-margin-top-2 {
     margin-top: 32px;
@@ -140,8 +140,8 @@ body * {
     }
   
     .image-section {
-      -moz-padding: 10px; /*works on Firefox */
-      -webkit-padding: 10px; /*works on Safari and Google Chrome*/
+      -moz-padding: 10px;
+      -webkit-padding: 10px;
       padding: 10px;
     }
   
