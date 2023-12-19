@@ -1,193 +1,191 @@
-
 body * {
-    font-family: "Montserrat", sans-serif;
-  }
-  
-  html,
-  body {
-    padding: 0;
-    margin: 0;
-    scroll-behavior: smooth;
-  }
-  
-  h1,
-  h2,
-  h3 {
-    font-weight: bold;
-  }
-  hr{
-    border: 1px solid #000000;
-  }
-  ul li {
-    border: none !important;
-  }
-  
-  
-  
-  .image-section {
-    height: 100vh;
-    -moz-text-align: center;
-    -webkit-text-align: center; 
-    text-align: center;
-    background-color: #262626;
-    -moz-padding: 20px;
-    -webkit-padding: 20px;
-    padding: 20px;
-  }
-  
-  .image-section img {
-    max-width: 60%;
-    max-height: 60%;
-    margin-top: 50px !important;
-    object-fit: cover;
-  }
-  
-  .links {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
-  .links a {
-    flex: 0 0 10%;
-  }
-  
-  .icon-link {
-    text-decoration: none;
-    font-size: 48px auto;
-    padding: 26px;
-  }
-  
-  .content-container {
-    width: 70%;
-    margin: 0 auto;
-  }
-  
+  font-family: "Montserrat", sans-serif;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+hr {
+  border: 1px solid #000000;
+}
+
+ul li {
+  border: none !important;
+}
+
+.image-section {
+  height: 100vh;
+  text-align: center;
+  background-color: #262626;
+  padding: 20px;
+}
+
+.image-section img {
+  max-width: 60%;
+  max-height: 60%;
+  margin-top: 50px;
+  object-fit: cover;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.links a {
+  flex: 0 0 10%;
+}
+
+.icon-link {
+  text-decoration: none;
+  font-size: 48px;
+  padding: 26px;
+}
+
+.content-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.home {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.home p {
+  font-weight: bold;
+}
+
+.home h1 {
+  font-size: 64px;
+}
+
+.w3-ul li {
+  padding: 8px 0px;
+}
+
+.w3-margin-top-2 {
+  margin-top: 32px;
+}
+
+.w3-margin-top-4 {
+  margin-top: 64px;
+}
+
+.w3-margin-top-20-percent {
+  margin-top: 20%;
+}
+
+.w3-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.w3-fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+
+#gameBoard {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(7, 75px);
+  grid-template-rows: repeat(6, 75px);
+  gap: 5px;
+  margin: 20px 0;
+}
+
+.gameSlot {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: lightgray;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+
+@media screen and (max-width: 1200px) {
   .home {
-    width: 80%;
-    margin: 0 auto;
-  }
-  
-  .home p {
-    font-weight: bold;
-  }
-  
-  .home h1 {
-    font-size: 64px;
-  }
-  
-  .html {
-    width: 90%;
-    background-color: #04aa6d;
-  }
-  
-  .w3-ul li {
-    padding: 8px 0px;
-  }
-  
-  
-  
-  .w3-margin-top-2 {
-    margin-top: 32px;
-  }
-  
-  .w3-margin-top-4 {
-    margin-top: 64px;
-  }
-  
-  .w3-margin-top-20-percent {
-    margin-top: 20%;
-  }
-  
-  .w3-sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-  }
-  
-  .w3-fixed {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-  }
-  
-  /*Media queries*/
-  @media screen and (max-width: 1200px) {
-    .home {
       width: 90%;
-    }
-    .content-container {
-      width: 80% !important;
-    }
-  
-    .download-text {
+  }
+  .content-container {
+      width: 80%;
+  }
+  .download-text {
       display: none;
-    }
   }
-  
-  @media screen and (max-width: 992px) {
-    .home {
+}
+
+@media screen and (max-width: 992px) {
+  .home {
       width: 100%;
-    }
-    .home h1 {
-      font-size: 48px;
-    }
   }
-  
-  @media screen and (max-width: 600px) {
-    .content-container {
-      width: 100% !important;
-    }
-  
-    .image-section {
-      -moz-padding: 10px;
-      -webkit-padding: 10px;
+  .home h1 {
+      font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content-container {
+      width: 100%;
+  }
+  .image-section {
       padding: 10px;
-    }
-  
-    .links a {
-      flex: 0 0 5% !important;
-    }
-  
-    .home {
+  }
+  .links a {
+      flex: 0 0 5%;
+  }
+  .home {
       text-align: center;
       width: 100%;
-    }
-  
-    .home p {
-      font-size: medium !important;
-    }
-  
-    .home h1 {
+  }
+  .home p {
+      font-size: medium;
+  }
+  .home h1 {
       font-size: 32px;
-    }
-    .home h2 {
+  }
+  .home h2 {
       font-size: 24px;
-    }
-  
-    .w3-fixed {
+  }
+  .w3-fixed {
       position: inherit;
-    }
-  
-    .image-section {
-      height: auto;
-    }
-  
-    .image-section img {
+  }
+  .image-section img {
       max-width: 80%;
       max-height: 80%;
-    }
-  
-    .icon-link {
-      font-size: 24px;
-    }
-  
-    .w3-container,
-    .w3-panel {
-      padding: 0.01em;
-    }
-  
-    .download-text {
-      display: inline-block;
-    }
   }
+  .icon-link {
+      font-size: 24px;
+  }
+
+  
+  #gameBoard {
+      grid-template-columns: repeat(7, 50px);
+      grid-template-rows: repeat(6, 50px);
+  }
+
+  .gameSlot {
+      width: 45px;
+      height: 45px;
+  }
+}
