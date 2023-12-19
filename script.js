@@ -80,6 +80,13 @@ function placePiece(col, player) {
     }
   }
 }
+document.addEventListener('DOMContentLoaded', function() {
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      // User is in dark mode
+      var githubStatsImage = document.querySelector('.github-readme-stats img');
+      githubStatsImage.src = 'https://github-readme-stats.vercel.app/api?username=JWWhalen&show_icons=true&theme=flag-india';
+  }
+});
 
 // Function to check if a player has won
 function checkWin(player) {
