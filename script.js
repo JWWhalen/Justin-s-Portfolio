@@ -80,17 +80,6 @@ function placePiece(col, player) {
     }
   }
 }
-document.addEventListener('DOMContentLoaded', function() {
-  var githubStatsImage = document.querySelector('.github-readme-stats img');
-  
-  if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      // User is in dark mode
-      githubStatsImage.src = 'https://github-readme-stats.vercel.app/api?username=JWWhalen&show_icons=true&theme=flag-india';
-  } else if (window.matchMedia('(-ms-high-contrast)').matches) {
-      // High contrast mode
-      githubStatsImage.src = 'https://github-readme-stats.vercel.app/api?username=JWWhalen&show_icons=true&theme=flag-india';
-  }
-});
 
 
 // Function to check if a player has won

@@ -191,16 +191,5 @@ ul li {
     height: 30px;  
     border: 1px solid green; 
 }
-@media screen and (-ms-high-contrast: active), (forced-colors: active) {
-  .github-readme-stats img {
-      border: 3px solid white;
-  }
-}
-
-@media screen and (-ms-high-contrast: black-on-white), (forced-colors: black-on-white) {
-  .github-readme-stats img {
-      border: 3px solid black;
-  }
-}
 
 }
