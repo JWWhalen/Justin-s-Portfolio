@@ -123,6 +123,20 @@ ul li {
 }
 
 
+@media screen and (max-width: 600px) {
+  #gameBoard {
+      grid-template-columns: repeat(7, 40px); 
+      grid-template-rows: repeat(6, 40px);    
+      gap: 3px;                             
+  }
+
+  .gameSlot {
+      width: 40px;
+      height: 40px;
+  }
+}
+
+
 @media screen and (max-width: 1200px) {
   .home {
       width: 90%;
