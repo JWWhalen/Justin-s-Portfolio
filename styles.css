@@ -182,12 +182,12 @@ ul li {
 
   
   #gameBoard {
-      grid-template-columns: repeat(7, 50px);
-      grid-template-rows: repeat(6, 50px);
+      grid-template-columns: repeat(7, 20px);
+      grid-template-rows: repeat(6, 20px);
   }
 
   .gameSlot {
-      width: 20px;
-      height: 20px;
+      width: 30px;
+      height: 30px;
   }
 }
