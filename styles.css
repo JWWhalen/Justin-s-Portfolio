@@ -187,8 +187,8 @@ ul li {
   }
 
   .gameSlot {
-      background-color: whitesmoke;
-      width: 30px;
-      height: 30px;
-  }
+    width: 30px; 
+    height: 30px;  
+    border: 1px solid green; 
+}
 }
