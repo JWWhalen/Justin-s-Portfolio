@@ -182,8 +182,8 @@ ul li {
 
   
   #gameBoard {
-      grid-template-columns: repeat(7, 20px);
-      grid-template-rows: repeat(6, 20px);
+      grid-template-columns: repeat(7, 25px);
+      grid-template-rows: repeat(6, 25px);
   }
 
   .gameSlot {
